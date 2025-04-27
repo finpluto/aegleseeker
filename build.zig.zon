@@ -1,0 +1,19 @@
+.{
+    .name = .aegleseeker,
+    .version = "0.0.1",
+    .fingerprint = 0x994426abb2b9e738,
+    .minimum_zig_version = "0.14.0",
+
+    .dependencies = .{
+        .build_crab = .{
+            .url = "git+https://github.com/akarpovskii/build.crab#024fac10c475235e80f4b8fb172e39fc20a15a9d",
+            .hash = "build_crab-0.2.0-V2z3N8C7AABofsXwDYy-nHg6rrXngQjOs8J4LGlqIcew",
+        },
+    },
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "binding",
+    },
+}

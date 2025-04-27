@@ -1,0 +1,11 @@
+[package]
+name = "aegleseeker"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+dashmap = "6.1.0"
+glam = "0.30.2"
